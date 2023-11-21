@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+ text-align: center; 
+ text-shadow: 2px 2px 5px #eb0000;
+ border-style: outset;
+ color: white;
+}
+
+body{
+  background-color: #2b4db6;
+}
+
+#chat1{
+  margin-left: 1095px;
+  transform: rotateY(180deg)
+}
+
+#ici{
+  display: block;
+  margin: auto;
+  padding: 20px 80px;
+  background-color: white;
+  border: double;
+  border-radius: 25px;
+  border-color: #00004d;
+  cursor: pointer;
+  color: #00004d;
+}
+
+#ici:active {
+  background-color: white;
+  box-shadow: 0 5px #000000;
+  transform: translateY(2px);
+}
+
+#chat2 {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+
+h2 {
+  color: black;
+}
